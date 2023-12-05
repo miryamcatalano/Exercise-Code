@@ -1,14 +1,18 @@
 body{
     height: 100vh;
+    background-color: azure;
     display:flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
-.click{
+.button{
     width:150px;
+    height: 50px;
     border-color: black;
-    border-width:1px;
+    color: black;
+    background-color: rgb(141, 204, 255);
+    border-width:5px;
     border-radius: 5px;
     font-size: 15px;
 }
