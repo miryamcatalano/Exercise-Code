@@ -1,7 +1,4 @@
-var incrementButton = document.getElementById('click1');
-var decrementButton = document.getElementById('click2');
-
-var valore = 0;
+let valore = 0;
 
 document.getElementById("click1").addEventListener("click", function(){
     valore++;
